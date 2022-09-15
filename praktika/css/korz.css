@@ -1,0 +1,200 @@
+  /* Custom Stylesheet */
+
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+    color: #A6CE6B;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.sidenav-trigger {
+    color: #A6CE6B;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+    
+}
+
+.responsive-img {
+
+    width: 70%;
+    height: 70%;
+
+    
+}
+
+.сolor{
+    background-color: #224430;
+}
+
+.parallax-container{
+height: 600px;
+
+}
+
+.row{
+color: black;
+background-size: 100%;
+}
+
+.icon-block{
+    background-color: #D9D9D9;
+    padding-top: 15px;
+}
+
+.responsive-img-1 {
+
+    max-width: 100%;
+    height: auto;
+    
+
+}
+
+.responsive-img-2 {
+
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+
+
+.light{
+
+    line-height: 1.5;
+}
+
+/* .icon-block{
+    height: 700px;
+    
+} */
+
+.icon-block-1{
+    text-align: center;
+}
+
+
+.color-block{
+
+background-color: #FFD700;
+height: 150px;
+}
+
+.back-color_block {
+    background-color: #b9b9b9;
+}
+
+
+  .page-footer {
+    padding-top: 20px;
+    color: #fff;
+    background-color: #224430;
+}
+
+.menuu{
+    background-color: #A6CE6B;
+}
+
+.blud{
+    background-image: url(/img/блок\ для\ меню.png);
+    
+  
+    
+    
+}
+
+/* .foto_blud{
+    min-width: 130px;
+    min-height: 130px;
+} */
+.hd{
+    height: 100px;
+    overflow:visible;
+
+}
+
+
+  
+  
+  
+  
+  
+  
+  /* label color */
+  .input-field label {
+    color: #224430;
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: black;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #224430;
+    box-shadow: 0 1px 0 0 #224430;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 0 0 black;
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 0 0 black;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #224430;
+  }
+
+  .validate{
+   background-color: black;
+  }
